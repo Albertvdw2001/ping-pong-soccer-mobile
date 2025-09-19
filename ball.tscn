@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx4idv175vwm4"]
+
+[ext_resource type="Texture2D" uid="uid://bxa87k8qkhj6c" path="res://Assets/white-circle.png" id="1_x8fbi"]
+
+[node name="ball" type="RigidBody2D"]
+gravity_scale = 0.0
+linear_damp = 0.2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.16, 0.16)
+texture = ExtResource("1_x8fbi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
