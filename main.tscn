@@ -1,3 +1,11 @@
-[gd_scene format=3 uid="uid://bqxfk66oi4r1o"]
+[gd_scene load_steps=3 format=3 uid="uid://bqxfk66oi4r1o"]
+
+[ext_resource type="PackedScene" uid="uid://op5mej3k04jv" path="res://player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://cx4idv175vwm4" path="res://ball.tscn" id="2_0xm2m"]
 
 [node name="main" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_ig7tw")]
+
+[node name="ball" parent="." instance=ExtResource("2_0xm2m")]
+position = Vector2(298.121, 118.077)
