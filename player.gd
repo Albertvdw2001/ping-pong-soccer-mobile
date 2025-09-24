@@ -1,9 +1,8 @@
-extends Node2D
+extends CharacterBody2D
 
 @onready var sprite = $Sprite2D
 
 var dragging = false
-
 
 func _input(event: InputEvent) -> void:
 	if event is InputEventScreenTouch:

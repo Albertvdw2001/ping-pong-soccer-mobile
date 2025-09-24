@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bqxfk66oi4r1o"]
+[gd_scene load_steps=4 format=3 uid="uid://bqxfk66oi4r1o"]
 
 [ext_resource type="PackedScene" uid="uid://op5mej3k04jv" path="res://player.tscn" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://cx4idv175vwm4" path="res://ball.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://dvbjfm485pfu0" path="res://walls.tscn" id="3_h2yge"]
 
 [node name="main" type="Node2D"]
 
@@ -9,3 +10,5 @@
 
 [node name="ball" parent="." instance=ExtResource("2_0xm2m")]
 position = Vector2(298.121, 118.077)
+
+[node name="Walls" parent="." instance=ExtResource("3_h2yge")]
