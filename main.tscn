@@ -6,9 +6,13 @@
 
 [node name="main" type="Node2D"]
 
-[node name="player" parent="." instance=ExtResource("1_ig7tw")]
-
 [node name="ball" parent="." instance=ExtResource("2_0xm2m")]
-position = Vector2(298.121, 118.077)
+position = Vector2(583, 358)
 
 [node name="Walls" parent="." instance=ExtResource("3_h2yge")]
+
+[node name="player" parent="." instance=ExtResource("1_ig7tw")]
+position = Vector2(749, 368)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
